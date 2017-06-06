@@ -128,6 +128,7 @@
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">Busca (a)</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButtonBuscarAClicked" />
                   </widget>
                   <packing>
                     <property name="Position">0</property>
@@ -144,6 +145,7 @@
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">Busca (R)</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButtonBuscarRClicked" />
                   </widget>
                   <packing>
                     <property name="Position">1</property>
@@ -160,6 +162,7 @@
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">Cancel</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButtonCancelClicked" />
                   </widget>
                   <packing>
                     <property name="Position">2</property>
@@ -176,6 +179,7 @@
                     <property name="Type">TextOnly</property>
                     <property name="Label" translatable="yes">Clear</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButtonCleanClicked" />
                   </widget>
                   <packing>
                     <property name="Position">3</property>

@@ -202,5 +202,9 @@ public partial class MainWindow
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
 		this.entryWhat.Changed += new global::System.EventHandler(this.OnEntryWhatChanged);
 		this.entryWhere.Changed += new global::System.EventHandler(this.OnEntryWhereChanged);
+		this.buttonBuscarA.Clicked += new global::System.EventHandler(this.OnButtonBuscarAClicked);
+		this.buttonBuscarR.Clicked += new global::System.EventHandler(this.OnButtonBuscarRClicked);
+		this.buttonCancel.Clicked += new global::System.EventHandler(this.OnButtonCancelClicked);
+		this.buttonClean.Clicked += new global::System.EventHandler(this.OnButtonCleanClicked);
 	}
 }
