@@ -1,8 +1,15 @@
 ﻿using System;
 using Gtk;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Threading;
+
 
 public partial class MainWindow : Gtk.Window
 {
+	SearcherUi Lib;
 	public MainWindow() : base(Gtk.WindowType.Toplevel)
 	{
 		Build();
@@ -29,4 +36,6 @@ public partial class MainWindow : Gtk.Window
 		statusbar.Push (context_id, where);
 
 	}
+
+
 }
